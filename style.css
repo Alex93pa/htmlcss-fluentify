@@ -125,18 +125,17 @@ button{
 }
 
 .programma{
-    height: 300px;
+    height: 400px;
 }
 
 .column{
     float: left;
     position: relative;
     height: 400px;
-    border: 1px solid black;
 }
 
 .col-3{
-    width: 33.3%;
+    width: 33.33333%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -181,15 +180,67 @@ button{
 
 .col-2{
     width: 50%;
-    background-color: hotpink;
+    background-color: white;
 }
 
 .level{
-    height: 300px;
+    height: 400px;
 }
 
+.mountain{
+    height: 100%;
+    width: auto;
+    background-image: url('img/mountain.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5%;
+}
+
+.scopri{
+    padding: 30px;
+    height: 100%;
+    margin-right: 20%;
+}
+
+.h4-2{
+    padding: 5% 0;
+}
+.link{
+    color: blue;
+    text-decoration: underline;
+    padding: 0%;
+}
 .foot{
-    background-color: gray;
-    height: 300px;
+    background-color: lightgrey;
+    height: 100px;
     width: 100%;
+}
+
+.piano{
+    height: 100px;
+    line-height: 100px;
+    margin-left: 10%;
+    float: left;
+}
+
+.select{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin-right: 5%;
+    width: 35%;
+}
+
+.btn-footer{
+    display: inline;
+}
+
+.fixed-help{
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    background-color: green;
+    float: right;
+   
 }
