@@ -222,6 +222,12 @@ button{
     width: 100%;
 }
 
+footer.sectionf{
+    width: 1400px;
+    margin: auto;
+    background-color: lightgray;
+}
+
 .piano{
     height: 100px;
     line-height: 100px;
@@ -235,7 +241,7 @@ button{
     line-height: 100px;
     margin-right: 5%;
     width: 30%;
-    background-color: lightgray;
+    background-color: lightgray
     display: inline;
 }
 
@@ -249,6 +255,9 @@ button{
 
 .seleziona{
     display: inline;
+    background: none;
+    border: none;
+    text-decoration: underline;
 }
 
 .btn-footer{
@@ -256,7 +265,7 @@ button{
 }
 
 .help{
-    position: absolute;
+    position: fixed;
     float: right;
     height: 60px;
     width: 60px;
@@ -265,8 +274,6 @@ button{
     line-height: 60px;
     text-align: center;
     z-index: 1;
-}
-
-.fixed-help{
-    position: fixed;
+    bottom: 0;
+    right: 12%;
 }
