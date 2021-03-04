@@ -135,8 +135,13 @@ button{
 }
 
 .col-3{
-    width: 33.33333%;
+    width: 30%;
     background-color: rgb(255, 255, 255);
+}
+
+.col-3l{
+    width: 5%;
+    background-color: white;
 }
 
 .img1{
@@ -194,7 +199,7 @@ button{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 5%;
+    padding: 5%;
 }
 
 .scopri{
@@ -229,18 +234,39 @@ button{
     height: 100px;
     line-height: 100px;
     margin-right: 5%;
-    width: 35%;
+    width: 30%;
+    background-color: lightgray;
+    display: inline;
+}
+
+.sono {
+    display: inline;
+}
+
+.sele{
+    display: inline;
+}
+
+.seleziona{
+    display: inline;
 }
 
 .btn-footer{
     display: inline;
 }
 
-.fixed-help{
-    position: fixed;
+.help{
+    position: absolute;
+    float: right;
     height: 60px;
     width: 60px;
     background-color: green;
-    float: right;
-   
+    color: white;
+    line-height: 60px;
+    text-align: center;
+    z-index: 1;
+}
+
+.fixed-help{
+    position: fixed;
 }
